@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  padding: 10px;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+  align-items: center;
+  box-shadow: 0 0px 8px 0 black;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+}
+
+.searchBar {
+  align-self: center;
+  position: fixed;
+  color: white;
+  width: 75%;
+}
+
+.favorites {
+  position: relative;
+  overflow-y: scroll;
+  height: 1000px
+}
+
+.favorites-title {
+  color: #31f5ef;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.favorite-gif {
+  position: relative;
+  width: 75%;
+  margin-bottom: 15px;
+}

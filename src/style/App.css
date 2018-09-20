@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  text-align: center;
+  background-image: linear-gradient(to bottom right,#222,white);
+  position: sticky;
+}
+
+.error-screen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right,#222,white);
+  position: sticky;
+  height: 100vh;
+  width: 78.5%;
+  margin-left: auto;
+}
+
+.error-gif {
+  height: 35%;
+  width: 35%;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  position: fixed;
+}
+
+.test {
+  display: flex;
+  background: red;
+  width: 80%;
+  height: 100%;
+  margin-left: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: #222;
+  padding: 10px;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+}
+
+.gifs {
+  display: flex;
+  margin-left: auto;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
